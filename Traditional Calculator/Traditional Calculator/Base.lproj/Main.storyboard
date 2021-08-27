@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Traditional_Calculator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="3" translatesAutoresizingMaskIntoConstraints="NO" id="NRt-hm-Xrt">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Great Indian Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="abB-VV-VcW">
+                                <rect key="frame" x="26" y="44" width="362" height="34.5"/>
+                                <fontDescription key="fontDescription" name="SnellRoundhand-Black" family="Snell Roundhand" pointSize="27"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Areas" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oKU-zd-2bP">
+                                <rect key="frame" x="173" y="233" width="69" height="29"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" alignment="top" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="h4B-RJ-OLG">
+                                <rect key="frame" x="68" y="337" width="289.5" height="350"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="61" translatesAutoresizingMaskIntoConstraints="NO" id="qUw-CA-Fh4">
+                                        <rect key="frame" x="0.0" y="0.0" width="104.5" height="346.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="South India" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mPI-Xd-JWv">
+                                                <rect key="frame" x="6" y="0.0" width="93" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="North India" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J1Q-rP-Dvm">
+                                                <rect key="frame" x="6.5" y="81.5" width="91.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="East India" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvc-WV-lvE">
+                                                <rect key="frame" x="12.5" y="163" width="80" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="West India" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pTE-bm-edw">
+                                                <rect key="frame" x="9.5" y="244.5" width="86" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Central India" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fxz-7n-rp0">
+                                                <rect key="frame" x="0.0" y="326" width="104.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="PoM-YY-09D">
+                                        <rect key="frame" x="139.5" y="0.0" width="150" height="350"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2d-00-eID">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="38"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                                <state key="normal" title="Calculate" backgroundImage="expensebutton">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="hjH-Fb-sIA" kind="show" id="cxM-wE-jo7"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="25J-SN-Yc6">
+                                                <rect key="frame" x="0.0" y="78" width="150" height="38"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                                <state key="normal" title="Calculate" backgroundImage="expensebutton">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="oY1-kZ-BMd" kind="show" id="Mhq-fK-VIi"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vEL-DI-D9s">
+                                                <rect key="frame" x="0.0" y="156" width="150" height="38"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                                <state key="normal" title="Calculate" backgroundImage="expensebutton">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="A8O-4W-ecf" kind="show" id="bMj-JD-dro"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="27W-Rp-FcV">
+                                                <rect key="frame" x="0.0" y="234" width="150" height="38"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                                <state key="normal" title="Calculate" backgroundImage="expensebutton">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <segue destination="UDK-Yp-haU" kind="show" id="rsI-5g-PfY"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4eC-D6-h1v">
+                                                <rect key="frame" x="0.0" y="312" width="150" height="38"/>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                                                <state key="normal" title="Calculate" backgroundImage="expensebutton">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Calculator" translatesAutoresizingMaskIntoConstraints="NO" id="I2t-4P-97Z">
+                                <rect key="frame" x="87" y="86" width="240" height="128"/>
+                                <rect key="contentStretch" x="0.40000000000000002" y="0.40000000000000002" width="1" height="1"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="oKU-zd-2bP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="173" id="4fT-hx-f3m"/>
+                            <constraint firstItem="abB-VV-VcW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="26" id="HyE-jo-vuE"/>
+                            <constraint firstItem="oKU-zd-2bP" firstAttribute="top" secondItem="I2t-4P-97Z" secondAttribute="bottom" constant="19" id="InW-vd-583"/>
+                            <constraint firstItem="NRt-hm-Xrt" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LzC-H2-6aC"/>
+                            <constraint firstItem="abB-VV-VcW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="NBX-q9-Zra"/>
+                            <constraint firstItem="NRt-hm-Xrt" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="TZz-W9-T5e"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I2t-4P-97Z" secondAttribute="trailing" constant="87" id="Ugp-cn-J5I"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oKU-zd-2bP" secondAttribute="trailing" constant="172" id="XZp-lh-qfu"/>
+                            <constraint firstAttribute="bottom" secondItem="NRt-hm-Xrt" secondAttribute="bottom" id="b2v-Oy-uAK"/>
+                            <constraint firstItem="NRt-hm-Xrt" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="bWS-ho-pcI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="abB-VV-VcW" secondAttribute="trailing" constant="26" id="gi3-vW-Dep"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="h4B-RJ-OLG" secondAttribute="trailing" constant="56.5" id="mEt-yq-ril"/>
+                            <constraint firstItem="h4B-RJ-OLG" firstAttribute="top" secondItem="oKU-zd-2bP" secondAttribute="bottom" constant="75" id="paP-a7-ZcD"/>
+                            <constraint firstItem="I2t-4P-97Z" firstAttribute="top" secondItem="abB-VV-VcW" secondAttribute="bottom" constant="7.5" id="pez-HA-BDm"/>
+                            <constraint firstItem="I2t-4P-97Z" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="puq-U3-O6j"/>
+                            <constraint firstItem="h4B-RJ-OLG" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="68" id="v0y-Z4-KGa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-888" y="-52"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fiB-i6-0Cc">
+            <objects>
+                <viewController id="hjH-Fb-sIA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nZD-xf-iSW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1" translatesAutoresizingMaskIntoConstraints="NO" id="0li-fe-Lh6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Land Area: North India" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9hI-oF-Ebs">
+                                <rect key="frame" x="82" y="41" width="262" height="34.5"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="25"/>
+                                <color key="textColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" spacing="34" translatesAutoresizingMaskIntoConstraints="NO" id="PyZ-xx-rxY">
+                                <rect key="frame" x="46" y="211" width="334" height="342"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="sm2-l7-xFm" userLabel="sv l">
+                                        <rect key="frame" x="0.0" y="0.0" width="150" height="342"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mzB-8W-udL">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="38"/>
+                                                <state key="normal" title="Pucca Bigha" backgroundImage="income_button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0vK-KI-TOu">
+                                                <rect key="frame" x="0.0" y="76" width="150" height="38"/>
+                                                <state key="normal" title="Kacha Bigha" backgroundImage="income_button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mnc-Ex-VEH">
+                                                <rect key="frame" x="0.0" y="152" width="150" height="38"/>
+                                                <state key="normal" title="Biswa" backgroundImage="income_button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0a-8c-Q4r">
+                                                <rect key="frame" x="0.0" y="228" width="150" height="38"/>
+                                                <state key="normal" title="Ghumaon" backgroundImage="income_button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyx-nt-s3h">
+                                                <rect key="frame" x="0.0" y="304" width="150" height="38"/>
+                                                <state key="normal" title="Acre" backgroundImage="income_button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="37" translatesAutoresizingMaskIntoConstraints="NO" id="Nrr-TR-Zgd" userLabel="sv r">
+                                        <rect key="frame" x="184" y="0.0" width="150" height="342"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ATx-Dq-hrU">
+                                                <rect key="frame" x="0.0" y="0.0" width="150" height="42"/>
+                                                <state key="normal" title="Pucca Biswa" backgroundImage="income_button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zTj-6d-P7d">
+                                                <rect key="frame" x="0.0" y="79" width="150" height="38"/>
+                                                <state key="normal" title="Kacha Biswa" backgroundImage="income_button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zav-eb-LMl">
+                                                <rect key="frame" x="0.0" y="154" width="150" height="38"/>
+                                                <state key="normal" title="Bigha" backgroundImage="income_button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O9W-OV-8S5">
+                                                <rect key="frame" x="0.0" y="229" width="150" height="38"/>
+                                                <state key="normal" title="Biswansi" backgroundImage="income_button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kmz-BG-ioe">
+                                                <rect key="frame" x="0.0" y="304" width="150" height="38"/>
+                                                <state key="normal" title="Kanal" backgroundImage="income_button">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Calculated Area" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ufA-7h-dzb">
+                                <rect key="frame" x="143" y="621" width="141" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Area" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3mh-v2-Dtd">
+                                <rect key="frame" x="174" y="119" width="96" height="34"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="9hI-oF-Ebs" firstAttribute="leading" secondItem="Ouy-M9-qSH" secondAttribute="leading" constant="82" id="5sU-3V-vt5"/>
+                            <constraint firstItem="ufA-7h-dzb" firstAttribute="top" secondItem="PyZ-xx-rxY" secondAttribute="bottom" constant="68" id="Asf-ua-ZBy"/>
+                            <constraint firstItem="9hI-oF-Ebs" firstAttribute="top" secondItem="Ouy-M9-qSH" secondAttribute="top" constant="41" id="BL8-gw-aGJ"/>
+                            <constraint firstItem="PyZ-xx-rxY" firstAttribute="leading" secondItem="Ouy-M9-qSH" secondAttribute="leading" constant="46" id="IVw-lQ-IS3"/>
+                            <constraint firstItem="Ouy-M9-qSH" firstAttribute="trailing" secondItem="9hI-oF-Ebs" secondAttribute="trailing" constant="70" id="LZO-bM-Oqq"/>
+                            <constraint firstAttribute="bottom" secondItem="0li-fe-Lh6" secondAttribute="bottom" id="Lhg-jt-9FC"/>
+                            <constraint firstItem="3mh-v2-Dtd" firstAttribute="leading" secondItem="Ouy-M9-qSH" secondAttribute="leading" constant="174" id="OAF-EB-9eN"/>
+                            <constraint firstItem="Ouy-M9-qSH" firstAttribute="trailing" secondItem="3mh-v2-Dtd" secondAttribute="trailing" constant="144" id="PMq-SN-cuv"/>
+                            <constraint firstItem="0li-fe-Lh6" firstAttribute="leading" secondItem="nZD-xf-iSW" secondAttribute="leading" id="QiD-uz-Ztb"/>
+                            <constraint firstItem="0li-fe-Lh6" firstAttribute="top" secondItem="nZD-xf-iSW" secondAttribute="top" id="Vsi-z3-slO"/>
+                            <constraint firstAttribute="trailing" secondItem="0li-fe-Lh6" secondAttribute="trailing" id="hzH-Kr-5Sb"/>
+                            <constraint firstItem="ufA-7h-dzb" firstAttribute="leading" secondItem="Ouy-M9-qSH" secondAttribute="leading" constant="143" id="j9H-xC-ddL"/>
+                            <constraint firstItem="Ouy-M9-qSH" firstAttribute="bottom" secondItem="PyZ-xx-rxY" secondAttribute="bottom" constant="255" id="soR-ix-SoM"/>
+                            <constraint firstItem="Ouy-M9-qSH" firstAttribute="trailing" secondItem="PyZ-xx-rxY" secondAttribute="trailing" constant="34" id="ujh-9v-ihb"/>
+                            <constraint firstItem="Ouy-M9-qSH" firstAttribute="trailing" secondItem="ufA-7h-dzb" secondAttribute="trailing" constant="130" id="xC5-ZH-boo"/>
+                            <constraint firstItem="PyZ-xx-rxY" firstAttribute="top" secondItem="3mh-v2-Dtd" secondAttribute="bottom" constant="58" id="xwM-av-88O"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Ouy-M9-qSH"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="bQ3-U4-8ZV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LRU-g2-r9P" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="95.652173913043484" y="-287.27678571428572"/>
+        </scene>
+        <!--Title-->
+        <scene sceneID="WNJ-ey-zpD">
+            <objects>
+                <viewController id="A8O-4W-ecf" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RjR-r8-Rvz">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dxv-7J-vIn">
+                                <rect key="frame" x="40" y="35" width="414" height="216"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="keyPath" value="kj"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="keyPath" value="lmlykm"/>
+                                </userDefinedRuntimeAttributes>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="MpN-rM-gGT"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title" id="SND-8S-sTY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wAY-7c-OyX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1032" y="781"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="hzp-vH-dGd">
+            <objects>
+                <viewController id="oY1-kZ-BMd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8VK-C2-S6k">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Viwe 3" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X3B-g9-0lw">
+                                <rect key="frame" x="183" y="73" width="52" height="55"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="I3g-KN-aM5"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="FH4-MC-0Wm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qQI-ru-9jM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="463.768115942029" y="687.72321428571422"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Ne1-jo-q0B">
+            <objects>
+                <viewController id="UDK-Yp-haU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="t2A-z9-KHw">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="view 2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWc-dz-bUP">
+                                <rect key="frame" x="56" y="244" width="49" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="gNJ-gm-Kgx"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="K3m-vh-6rk"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ck7-f7-iyT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837.68115942028987" y="-52.232142857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1" width="1000" height="1000"/>
+        <image name="3" width="1000" height="1000"/>
+        <image name="Calculator" width="128" height="128"/>
+        <image name="expensebutton" width="150" height="38"/>
+        <image name="income_button" width="150" height="38"/>
+    </resources>
+</document>
